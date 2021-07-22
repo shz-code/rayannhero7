@@ -26,16 +26,13 @@
 
     <div class="pre-loader" id="loader">
         <div class="pre-content">
-            <!-- <img src="https://media.giphy.com/media/ycfHiJV6WZnQDFjSWH/giphy.gif" alt=""> -->
             <p>Loading.......</p>
         </div>
     </div>
 
     <div class="main" id="main">
 
-
-
-        <video src="./img/vid.mp4" autoplay muted loop></video>
+        <video media src="./img/vid.mp4" autoplay muted loop></video>
 
         <header class="container" id="home">
             <div class="header">
@@ -66,30 +63,31 @@
                     </ul>
                 </div>
             </nav>
-
-
             <div class="achivement container" style="overflow: hidden;">
-
-
                 <div class="d-container">
-                    <div class="d-anim">
-                        
-                        
-                        
-                        <div class="d1">
-                            <h3>Achivement:</h3>
-                            <p>Finished Getting Over It Within 30 Min </p>
-                        </div>
-                        
-                        <div class="d2">
-                            <h3>Goals:</h3>
-                            <p>Beating The ENDER DRAGON in Minecraft ;</p>
-                            <p>100 Subscribers</p>
-                        </div>
-                        
-                    </div>
+                    <marquee behavior="scroll" scrollamount="12" height="45px" direction="left">
+                       <!-- GROUP 1 START -->
+                       <span class="d-heading">
+                        Achivement:
+                     </span>
+                     <span class="d-desc">
+                        Finished Getting Over It Within 30 Min.
+                     </span> 
+                       <!-- GROUP 1 END -->
+                       <span class="d-break"></span>
+                       <!-- GROUP 2 START -->
+                       <span class="d-heading">
+                           Goals:
+                        </span>
+                        <span class="d-desc">
+                            Beating The ENDER DRAGON in Minecraft ;
+                        </span> 
+                        <span class="d-desc">
+                            100 Subscribers
+                        </span> 
+                        <!-- GROUP 2 END -->
+                    </marquee>
                 </div>
-
             </div>
         </header>
 
