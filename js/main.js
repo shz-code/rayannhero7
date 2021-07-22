@@ -23,8 +23,9 @@ window.addEventListener('scroll' , () => {
     function tog() {
         
         let navbar = document.querySelector('.nav');
-        
+        let hamBtn = document.querySelector(".hamburger-btn");
         navbar.classList.toggle('active');
+        hamBtn.classList.toggle("open");
     }
     
     (()=> {

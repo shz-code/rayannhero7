@@ -1,18 +1,8 @@
 @media (max-width : 550px) {
     header .nav ul li a {
         font-size: 1rem;
-        padding: 0 8px;
+        padding: 10px 18px;
 
-    }
-
-    @keyframes danim {
-        0% {
-            transform: translateX(100%);
-        }
-        100% {
-            transform: translateX(-450%);
-        }
-        
     }
 
     .header .header-text h1 {
@@ -29,6 +19,15 @@
         top: 0;
         left: 25%;
 
+    }
+    .about .bio-data .img-box a {
+        display: block;
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+    .about .bio-data .img-box p {
+        display: block;
+        font-size: 1.2rem;
     }
     .yt .yt-links .main-btn .btn {
         width: 200px;

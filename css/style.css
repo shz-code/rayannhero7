@@ -452,20 +452,20 @@ header {
   border: 2px solid transparent;
 }
 
-.header .hamburger-btn:hover {
+.header .hamburger-btn.open {
   border: 2px solid white;
 }
 
-.header .hamburger-btn:hover span {
+.header .hamburger-btn.open span {
   background: white;
 }
 
-.header .hamburger-btn:hover span::before {
+.header .hamburger-btn.open span::before {
   width: 50%;
   background: white;
 }
 
-.header .hamburger-btn:hover span::after {
+.header .hamburger-btn.open span::after {
   width: 50%;
   background: white;
 }

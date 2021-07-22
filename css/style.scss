@@ -374,7 +374,7 @@ header {
         cursor: pointer;
         transition: 0.3s;
         border: 2px solid transparent;
-        &:hover {
+        &.open {
             border: 2px solid rgb(255, 255, 255);
             span {           
                 background: rgb(255, 255, 255);
