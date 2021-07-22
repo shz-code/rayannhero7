@@ -1,0 +1,115 @@
+@media (max-width : 700px) {
+
+    .header .header-text h1 {
+        font-size: 1.5em;
+    }
+
+
+    .header .img-box {
+        width: 130px;
+    }
+    @keyframes popup {
+        0% {
+            transform: scale(0.9);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+          transform: scale(0.9);
+
+      }
+    }
+
+    .header .header-text p {
+        font-size: 1em;
+    }
+    header .achivement h3 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+    header .achivement p {
+        font-size: 16px;
+        line-height: 50px;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .banner .content {
+       text-align: center;
+       width: 100%;
+    }
+    .banner-img{
+        display: none;
+    }
+
+    .banner-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        position: relative;
+        right: 50px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .games-list-ilem {
+        margin: 40px;
+    }
+
+    .bio-data.flex {
+        flex-direction: column;
+    }
+
+    .about .bio-data .img-box {
+        width: 62%;
+        border: 2px solid white;
+        padding: 10px;
+    }
+    .about .bio-data .img-box img {
+        width: 100%;
+        border: 2px solid white;
+    }
+    .hover-card {
+        margin-top: 60px;
+    }
+    .about .bio-data .img-box p {
+        font-size: 24px;
+        color: white;
+        text-align: center;
+    }
+    .yt .yt-video {
+        display: block;
+        width: auto;
+        margin-top: 0px;
+    }
+    .yt .yt-video .yt-last-vid {
+        padding: 0 2rem;
+        margin: 80px 0;
+    }
+    .yt .yt-links {
+ 
+        margin: 40px 0;
+    }
+    .contact.flex .contact-content .contact-form {
+        
+        margin-left: 0px;
+    }
+    .contact.flex .contact-content .contact-form form .submit {
+        width: auto;
+        background: #27FD61;
+        text-align: center;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: black;
+        outline: none;
+        border: none;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,53 @@
+@media (max-width : 550px) {
+    header .nav ul li a {
+        font-size: 1rem;
+        padding: 0 8px;
+
+    }
+
+    @keyframes danim {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-450%);
+        }
+        
+    }
+
+    .header .header-text h1 {
+       display: none;
+     
+    }
+    .header .header-text p {
+        visibility: hidden;
+    
+    }
+
+    .header .img-box {
+        position: absolute;
+        top: 0;
+        left: 25%;
+
+    }
+    .yt .yt-links .main-btn .btn {
+        width: 200px;
+        margin: 0;
+    }
+    .yt .yt-links .main-btn span {
+        width: 200px;
+    }
+    .yt .yt-links .main-btn h3 {
+        font-size: 1rem;
+    }
+    .games .filter span {
+        padding: 10px 30px;
+        margin: 0;
+        font-size: 16px;
+       
+    }
+    .copyright {
+        
+        font-size: 16px;
+    }
+}
